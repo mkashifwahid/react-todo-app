@@ -8,7 +8,7 @@ export default function TodoList() {
   return (
     <div>
       <ul>
-        {todos.map((todo) => (
+        {todos[0].map((todo) => (
           <li key={todo}>{todo}</li>
         ))}
       </ul>
