@@ -3,7 +3,7 @@ import TodoContext from './TodoComponent';
 
 export default function TodoList() {
   const todos = useContext(TodoContext);
-  console.log('todo list', todos);
+  console.log('todo list', todos[0]);
 
   return (
     <div>
